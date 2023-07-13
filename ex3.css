@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 7fr 1.5fr;
+  height: 100vh;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.logo {
+  justify-self: end;
+  margin: 5%;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.nav {
+  color: #000;
+  font-family: Barlow, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.book_now_button {
+  margin: 5% 10% 5% 10%;
+
+  background-color: #5b6460;
+  color: white;
+  font-family: Barlow, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.main_container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+
+  background-image: url(./assets/both-ood-iceland-houses-have-a-hot-tub-at-the-front-overlooking-the-spectacular-scenery-this-makes-the-experience-even-more-surreal-says-ceo-andreas-tiik\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 1fr 4fr;
+}
+
+.main_title {
+  margin: 5% 10% 5% 10%;
+
+  color: #fff;
+  text-align: right;
+  font-family: Open Sans;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 72px; /* 102.857% */
+}
+.aside {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  height: 7%;
+}
+
+.price {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 40% 20% 40%r;
+}
+
+p {
+  display: grid;
+}
