@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Ссылка на макет в фигме: https://buildhtml.ru/template/311  -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/ex3.css" />
@@ -8,12 +9,20 @@
       href="https://fonts.googleapis.com/css2?family=Barlow&family=Raleway&family=Roboto+Condensed&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Open+Sans&family=Raleway&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Mulish&family=Open+Sans&family=Raleway&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
     <title>ex2week6</title>
   </head>
   <body>
     <div class="container">
       <header class="header">
-        <img src="./assets/logo.png" alt="logo" class="logo" />
+        <img src="./assets/logo.svg" alt="logo" class="logo" />
         <div class="navigation">
           <a href="" class="nav">home</a>
           <a href="" class="nav">the nut</a>
@@ -26,23 +35,22 @@
         <button class="book_now_button">book now</button>
       </header>
       <div class="main_container">
-        <aside class="aside">
-          <button class="book_now_main_button">book now</button>
-          <div class="price">
-            <div class="from">from</div>
-            <div class="actual_price">€3.200</div>
-            <div class="per_night">per night</div>
-          </div>
-        </aside>
         <main class="main">
           <div class="main_title">Find peace in the Forest</div>
           <div class="main_text">
-            Come and stay in our hut hotel near Mariager Fjord in Denmark
+            Come and stay in our hut hotel near <br />Mariager Fjord in Denmark
           </div>
-          <div class="arrow">arrrow</div>
         </main>
+        <div class="arrow"><img src="./assets/Group 18.png" alt="arrow" /></div>
       </div>
-      <div class="empty_space">empty_space</div>
+      <div class="aside">
+        <button class="book_now_main_button">book now</button>
+        <div class="price">
+          <div class="from">from</div>
+          <div class="actual_price">€3.200</div>
+          <div class="per_night">per night</div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
